@@ -87,3 +87,8 @@ header .containerCart .containerLength .cantCart{
     left: 80%;
     border-radius: 50%;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}

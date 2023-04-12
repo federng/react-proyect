@@ -1,8 +1,11 @@
-import brand from "../img/brand.svg"
+import brand from "../img/brand.svg";
+import { Link } from "react-router-dom";
 
 const Brand = () => {
     return (
-        <img src={brand} alt="Bauzer Shopping" title="Bauzer Shopping" />
+        <Link to="/">
+            <img src={brand} alt="Tienda Hard" title="Tienda Hard"></img>
+        </Link>
 
     )
 }
